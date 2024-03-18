@@ -1,0 +1,49 @@
+Beetroot Academy
+QA Manual Course 
+Jan 2024 - March 2024
+Daniel Clapa
+#6 Homework Lesson 6 for 07 Feb 2024 - Levels and Types of Testing
+
+I. Beet Seed  — get the basic skills down.
+Make a comparative table of functional, non-functional, and change-related types of testing. 
+The comparison should contain the following blocks:
+what is being checked;
+when applicable;
+restrictions;
+peculiarities.
+
+Functional
+Non-functional
+Change-related testing
+What is being checked
+The behavior of a component or system.
+How well a component or system behaves on a set of attributes
+That the change actually fixed the bug. That the change didn’t break other previously functioning software
+When applicable
+At all test levels
+At all test levels
+At all test levels, but after a change in the software gets done
+restrictions
+From requirements and experience from other similar apps; Test cases
+Also requirements to some degree, but these can change. For example, the number of users can increase beyond expectations. Test cases
+Also requirements but especially regression testing. Test cases; bug report’s steps to reproduce while retesting
+peculiarities
+Some of the functional tests are “near” some of the non-functional testing. Such as, GUI/Usability and Login/Security. 
+These are quite different among each other in how they get done; for example, performance testing is very different to system 
+Some of these tests are specific, and others are at a higher overarching level
+
+1b. Explain the difference between regression and retesting (5 sentences).
+Regression testing is where we re-test the portion of an application or software that has already been tested and has passed its tests, but this is done with the purpose to verify, or confirm, that the other new functionalities have not broken any of the older functionalities. On the other hand, retesting – also known as confirmation testing – is testing of the new functionalities to confirm that any of their newly discovered bugs have been fixed and are working as intended, to check that their test cases pass, and so on. Both types of testing can be done at both the component or unit level testing and the integration level testing as well as include both functional and non-functional types of testing. We should not be thrown off by how the word ‘confirm’ or ‘confirmation’ is used. Confirmation testing is to confirm that a bug has been fixed. Regression testing is to confirm that during the fixing of that bug, no new bugs were introduced.  
+
+II. Beet Sprout — dive deeper into practice
+2a. Do you think it is possible to perform only functional testing for a product without checking non-functional requirements?
+If yes - in what cases? 
+If not, why not?
+Support your answer.
+Under very limited circumstances, such as when creating a piece of software for personal use on a local machine, I think it is possible to only have to perform functional testing without checking non-functional characteristics. But for commercial software non-functional requirements are just as crucial as functional ones. Once a system needs to be used by a greater increasing number of people, on different systems, and over the internet then non-functional testing such as performance, usability and security testing as essential. 
+3. How do you see the need for smoke testing? Is it always appropriate? 
+I think it is always appropriate once the software has enough working components or functionalities that it looks like and behaves like a system. I don’t think smoke testing is needed, for example, for unit testing.
+III. Mighty Beet: get an all-round topics coverage by completing level three of the home assignment:
+You are the founder of a startup planning to launch a mobile application for sharing cat photos on iOS and Android devices.
+
+Users can upload photos of cats but they cannot upload photos of other animals, people or objects. Users can add friends and leave likes and comments. 
